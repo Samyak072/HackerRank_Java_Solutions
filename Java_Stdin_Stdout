@@ -1,0 +1,18 @@
+import java.util.Scanner;
+//importing scanner class in java.
+
+public class Solution {
+
+public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    int integerInput = scan.nextInt();
+    scan.nextLine();
+    double doubleInput = scan.nextDouble();
+    scan.nextLine();
+    String stringInput = scan.nextLine();
+    System.out.println("String: " + stringInput);
+    System.out.println("Double: " + doubleInput);
+    System.out.println("Int: " + integerInput);
+
+}
+}
