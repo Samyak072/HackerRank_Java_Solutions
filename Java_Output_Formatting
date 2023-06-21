@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input values
+        String input1 = scanner.next();
+        int input2 = scanner.nextInt();
+        String input3 = scanner.next();
+        int input4 = scanner.nextInt();
+        String input5 = scanner.next();
+        int input6 = scanner.nextInt();
+
+        // Print the output in the specified format
+        System.out.println("================================");
+        System.out.printf("%-15s%03d%n", input1, input2);
+        System.out.printf("%-15s%03d%n", input3, input4);
+        System.out.printf("%-15s%03d%n", input5, input6);
+        System.out.println("================================");
+    }
+}
+
+//The "%15s" and "%03d" format specifiers are used to align the strings and integers with fixed width.
+The "-" flag is used to left-align the strings. 
